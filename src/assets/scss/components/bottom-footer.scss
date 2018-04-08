@@ -1,0 +1,9 @@
+.bottom-footer {
+  background-color: $tan;
+  &-content-website-info {
+    color: $blackboard;
+    font-size: $tSM;
+    font-weight: $regularWeight;
+    text-transform: lowercase;
+  }
+}

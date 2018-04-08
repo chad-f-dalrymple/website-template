@@ -1,0 +1,6 @@
+{
+  "name": "Recura-App",
+  "dependencies": {
+    "foundation-sites": "6.2.3"
+  }
+}

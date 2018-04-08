@@ -1,0 +1,11 @@
+.top-nav {
+  background-color: $blackboard !important;
+  z-index: 1;
+  &-content {
+    color: $white;
+    font-size: $tRG;
+    font-weight: $heavyWeight;
+    letter-spacing: 0.86px;
+    padding-top: $ptRG;
+  }
+}

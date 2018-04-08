@@ -1,0 +1,22 @@
+.about-background {
+  background-color: $tan;
+}
+
+.about-me {
+  &-title {
+    color: $black;
+    font-size: $tXL;
+    font-weight: $regularWeight;
+    padding-top: $ptLG;
+  }
+  &-body {
+    color: $blackboard;
+    font-size: $tRG;
+    font-weight: $regularWeight;
+    margin: $mbRG 15% $mbXL 15%;
+  }
+}
+
+.cta-secondary {
+  margin: $mtLG;
+}
