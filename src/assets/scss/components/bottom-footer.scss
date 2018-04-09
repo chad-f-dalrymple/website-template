@@ -1,9 +1,15 @@
 .bottom-footer {
-  background-color: $tan;
+  background-color: $oxblood;
   &-content-website-info {
-    color: $blackboard;
-    font-size: $tSM;
+    color: $black;
+    font-size: $tRG;
     font-weight: $regularWeight;
+    margin: $mtLG auto $mbRG auto;
     text-transform: lowercase;
   }
+}
+
+.social-icon {
+  height: 40px;
+  margin: auto $mrRG $mbLG $mlRG;
 }
