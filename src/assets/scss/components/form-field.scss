@@ -33,26 +33,26 @@ $highlight-color: $oxblood;
   textarea {
     margin-bottom: 0;
     color: $blackboard;
-    font-size: 18px;
-    font-weight: 300;
-    padding: 30px 1rem 1rem 25px;
+    font-size: $tRG;
+    font-weight: $lightWeight;
+    padding: $ptXXL 1rem 1rem $plLG;
   }
 
   label {
     color: $blackboard;
-    font-size: 18px;
+    font-size: $tRG;
     position: absolute;
     pointer-events: none;
-    left: 25px;
+    left: $mlRG;
     bottom: 0;
     transition: all 0.2s ease-in;
-    font-weight: 300;
+    font-weight: $lightWeight;
   }
 
   textarea ~ label {
-    top: 20px;
-    font-size: 18px;
-    font-weight: 300;
+    top: 1.25rem;
+    font-size: $tMD;
+    font-weight: $lightWeight;
   }
 
   /* active state */
@@ -60,16 +60,16 @@ $highlight-color: $oxblood;
   input:disabled[value] ~ label,
   &.has-value input ~ label {
     top: 0;
-    font-size: 14px;
+    font-size: $tXS;
     color: $focusBlue;
-    font-weight: 400;
+    font-weight: $regularWeight;
   }
 
   textarea:focus ~ label,
   &.has-value textarea ~ label {
     top: 0;
-    font-size: 14px;
+    font-size: $tXS;
     color: $focusBlue;
-    font-weight: 400;
+    font-weight: $regularWeight;
   }
 }
