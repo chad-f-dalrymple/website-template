@@ -9,6 +9,7 @@
 
 .form-field-row {
   margin-top: $mtRG;
+  min-width: 25rem;
 }
 
 $highlight-color: $oxblood;
@@ -43,7 +44,7 @@ $highlight-color: $oxblood;
     font-size: $tRG;
     position: absolute;
     pointer-events: none;
-    left: $mlRG;
+    left: $mlXS;
     bottom: 0;
     transition: all 0.2s ease-in;
     font-weight: $lightWeight;

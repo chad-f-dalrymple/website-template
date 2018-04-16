@@ -9,5 +9,9 @@
     letter-spacing: 0.86px;
     margin: auto;
     padding-top: $ptXXS;
+    padding-bottom: $pbXS;
+    @media screen and (max-width: 39.9375em) {
+      font-size: $tRG;
+    }
   }
 }

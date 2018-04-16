@@ -7,6 +7,10 @@
   min-height: 36.75rem;
   padding-top: $pt6XL;
   padding-bottom: $pb6XL;
+  @media screen and (max-width: 39.9375em) {
+    padding-bottom: 0;
+    padding-top: $pt3XL;
+  }
 }
 
 .layer {

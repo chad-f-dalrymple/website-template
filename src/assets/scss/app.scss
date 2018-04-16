@@ -5,6 +5,7 @@
 @import "components/info-box";
 @import "components/form-field";
 @import "components/top-bar-nav";
+@import "components/card-styles";
 @import "page/index-background";
 @import "components/about-section";
 @import "components/bottom-footer";
@@ -13,8 +14,8 @@
 @import 'motion-ui';
 
 @include foundation-global-styles;
-// @include foundation-grid;
-// @include foundation-flex-grid;
+@include foundation-grid;
+@include foundation-flex-grid;
 //
 @include foundation-xy-grid-classes;
 @include foundation-typography;
@@ -39,9 +40,9 @@
 @include foundation-media-object;
 @include foundation-off-canvas;
 @include foundation-orbit;
-@include foundation-pagination;
-@include foundation-progress-bar;
-@include foundation-slider;
+// @include foundation-pagination;
+// @include foundation-progress-bar;
+// @include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal;
 @include foundation-switch;
