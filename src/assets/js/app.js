@@ -8,7 +8,6 @@ import Foundation from 'foundation-sites';
 // the line below
 //import './lib/foundation-explicit-pieces';
 
-
 $(document).foundation();
 
 $('.form-floating-label input, .form-floating-label textarea').focusin(function(){
@@ -20,13 +19,3 @@ $('.form-floating-label input, .form-floating-label textarea').blur(function(){
     $(this).parent().removeClass('has-value');
   }
 });
-
-
-$(document).foundation();
-
-$('.title-bar').on('sticky.zf.stuckto:top', function(){
-  $(this).addClass('shrink');
-
-}).on('sticky.zf.unstuckfrom:top', function(){
-  $(this).removeClass('shrink');
-})

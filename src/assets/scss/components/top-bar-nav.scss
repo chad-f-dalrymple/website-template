@@ -1,11 +1,13 @@
 .top-nav {
-  background-color: $blackboard !important;
+  background: $oxbloodOpacity;
+  top: 0;
   z-index: 1;
   &-content {
     color: $white;
-    font-size: $tRG;
+    font-size: $tXL;
     font-weight: $heavyWeight;
     letter-spacing: 0.86px;
-    padding-top: $ptRG;
+    margin: auto;
+    padding-top: $ptXXS;
   }
 }

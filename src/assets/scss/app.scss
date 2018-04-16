@@ -1,6 +1,7 @@
 @charset 'utf-8';
 
 @import "variables";
+@import "utilities";
 @import "components/info-box";
 @import "components/form-field";
 @import "components/top-bar-nav";
@@ -47,7 +48,7 @@
 @include foundation-table;
 @include foundation-tabs;
 @include foundation-thumbnail;
-@include foundation-title-bar;
+// @include foundation-title-bar;
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
