@@ -29,4 +29,4 @@ $('.title-bar').on('sticky.zf.stuckto:top', function(){
 
 }).on('sticky.zf.unstuckfrom:top', function(){
   $(this).removeClass('shrink');
-})
+});

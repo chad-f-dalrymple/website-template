@@ -1,15 +1,16 @@
 /* colors */
 
-$white: #ffffff;
-$black: #000000;
-$fontBlack: #262626;
-$subtitleText: #D3D3D3;
-$errorRed: #EE2C2C;
-$grain: #D7CE7C;
-$blackboard: #565656;
-$oxblood: #76323F;
-$tan: #C09F80;
-$focusBlue: #4c4cff;
+$white: rgba(255, 255, 255, 1);
+$black: rgba(0, 0, 0, 1);
+$fontBlack: rgba(38, 38, 38, 1);
+$subtitleText: rgba(211, 211, 211, 1);
+$errorRed: rgba(238, 44, 44, 1);
+$grain: rgba(253, 252, 251, 1);
+$blackboard: rgba(86, 86, 86, 1);
+$oxblood: rgba(118, 50, 63, 1);
+$oxbloodOpacity: rgba(118, 50, 63, .65);
+$tan: rgba(226, 209, 195, 1);
+$focusBlue: rgba(76, 76, 255, 1);
 
 /* font-size */
 

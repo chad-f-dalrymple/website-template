@@ -1,5 +1,19 @@
 .about-background {
-  background-color: $tan;
+  background: linear-gradient($grain, $tan);
+}
+
+.about {
+  &-image {
+    background-image: url("../img/about-background.jpg");
+    background-position: center;
+    background-size: 100%;
+    min-height: 25rem;
+  }
+  &-information-body {
+    color: $black;
+    font-size: $tMD;
+    font-weight: $regularWeight;
+  }
 }
 
 .about-me {
@@ -17,7 +31,15 @@
   }
 }
 
-.cta-secondary {
+.cta {
+  padding-bottom: $pbXXL;
+  padding-top: $ptRG;
+  &-secondary {
+  border-radius: 3px;
   margin-top: $mtXL;
-  margin-bottom: $mbXXL;
+  }
+}
+
+.button {
+  background-color: $oxblood;
 }

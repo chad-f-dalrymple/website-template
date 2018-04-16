@@ -1,5 +1,5 @@
 .bottom-footer {
-  background-color: $oxblood;
+  background-color: $oxbloodOpacity;
   &-content-website-info {
     color: $black;
     font-size: $tRG;
@@ -10,6 +10,9 @@
 }
 
 .social-icon {
-  height: 40px;
+  height: 2.5rem;
   margin: auto $mrRG $mbLG $mlRG;
+  @media screen and (max-width: 39.9375em) {
+    height: 2rem;
+  }
 }
