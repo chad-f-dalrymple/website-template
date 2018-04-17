@@ -6,7 +6,8 @@
   max-height: 36.75rem;
   width: 60%;
   @media screen and (max-width: 39.9375em) {
-    margin-top: $mt4XL;
+    margin-top: $mt5XL;
+    margin-bottom: $mbXXS;
     width: 100%;
   }
   &-title {
